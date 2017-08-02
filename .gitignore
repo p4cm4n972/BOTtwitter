@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+config-local.js
+
+npm-debug.log
+
+*.env
+*.dev
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "name": "Twitter bot",
+  "description": "A twitter bot Node.js app ",
+  "repository": "https://github.com/p4cm4n972/BOTtwitter",
+  "keywords": ["node", "Twitter", "heroku"],
+  "image": "heroku/nodejs"
+}
