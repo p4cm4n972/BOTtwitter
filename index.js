@@ -14,7 +14,7 @@ function followed(eventMsg) {
     console.log('Follow event');
     var name = eventMsg.source.name;
     var screenName = eventMsg.source.screen_name;
-    tweetIt('Thank you @' + screenName + ' for follow APLUS Système Automation ! Visit our website:  https://aplus-sa.com');
+    tweetIt('Thank you .@' + screenName + ' for follow APLUS Système Automation ! Visit our website:  https://aplus-sa.com');
 }
 
 function tweetIt(txt) {
