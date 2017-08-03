@@ -19,20 +19,15 @@ tweetIt('Thank you @' + screenName + ' for follow APLUS Système Automation ! Vi
 function tweetIt (text) {
 var tweet = {
 status: text
-}
+};
 T.post('statuses/update', tweet, tweeted);
 
 function tweeted(err, data, response) {
 if(err) {
-console.log('Something went wrong');
+console.log('Something went wrong: ' + err);
 } else {
 console.log('It worked');
 }
-}
-}
-/*T.get('search/tweets', {q:'#neymar since:2017-05-01',count:1000,result_type:'popular'}, function(err, data, response) {
-var tweets = data.statuses;
-for (var i=0; i < tweets.length; i++) {
-console.log(tweets[i].text);
 };
-});*/
+};
+
